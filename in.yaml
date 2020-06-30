@@ -1,0 +1,12 @@
+file_input1: 
+  class: 'File'
+  location: 'README.md'
+file_input2: 
+  class: 'File'
+  # just some random files... 
+  location: 'requirements.txt'
+messages1: ['hello', 'from', '1']
+messages2: ['hello', 'from', '2']
+messages3: ['hello', 'from', '3']
+messages4: "Hello from message 4"
+
