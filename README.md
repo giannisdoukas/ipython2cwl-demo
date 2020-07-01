@@ -12,7 +12,8 @@ This example is based on demo1.ipynb.
 
 * You can clone the repo or,
 * You can execute:
-  * jupyter-ipython2cwl https://github.com/giannisdoukas/ipython2cwl-demo
+  * jupyter-repo2cwl https://github.com/giannisdoukas/ipython2cwl-demo -o .
+  * That command will generate a docker image & a file named demo1.cwl in your current working directory
   * You can still execute the Jupyter Notebook by executing: `$ docker run -p 127.0.0.1:8888:8888 THE_NAME_OF_THE_GENERATED_IMAGE`
   * You can find the generated image id or in the logs produced by the jupyter-ipython2cwl or in the generated cwl file. 
 
